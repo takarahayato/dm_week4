@@ -11,6 +11,7 @@ model = regression.LinearRegression()
 model.fit(X,Y)
 model.theta
 model.predict(X)
-
+model.score(X,Y)
 print(model.theta)
 print(model.predict(X))
+print(model.score(X,Y))
