@@ -5,7 +5,7 @@ def load_nonlinear_example1():
     y = np.array([4.0,0.0,3.0,2.0])
     return x,y
 
-def polynomial2_features(input):
+def polynomial3_features(input):
     ploy2 = input[:,1:]**2
     ploy3 = input[:,1:]**3
     return np.c_[input,ploy2,ploy3]
